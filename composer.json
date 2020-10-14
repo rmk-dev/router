@@ -1,0 +1,30 @@
+{
+    "name": "rmk/router",
+    "description": "Simple router wrapper",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^7.4",
+        "altorouter/altorouter": "^1.2",
+        "rmk/container": "^1.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rmk\\Router\\": "./src/Router/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rmk\\Tests\\Router\\": "./tests/Router/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "Kiril Savchev",
+            "email": "k.savchev@gmail.com"
+        }
+    ]
+}
